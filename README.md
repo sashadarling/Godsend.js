@@ -18,20 +18,20 @@ Usage
 
 ```javascript
   var assets = {
-    basi0g01: {
-      src: "assets/basi0g01.png"
+    image1 : {
+      src: "assets/image1.png"
     },
-    basi0g02: {
-      src: "assets/basi0g02.png"
+    image2 : {
+      src: "assets/image2.png"
     },
-    basi0g04: {
-      src: "assets/basi0g04.png"
+    image3 : {
+      src: "assets/image3.png"
     },
-    basi0g08: {
-      src: "assets/basi0g08.png"
+    image4 : {
+      src: "assets/image4.png"
     },
-    basi0g16: {
-      src: "assets/basi0g16.png"
+    image5 : {
+      src :  "assets/image5.png"
     }
   };
 ```
@@ -42,8 +42,8 @@ Usage
   var lazy = new Godsend( assets );
 
   $("#dosomething1").on("click", function() {
-    lazy.loadAsset( "basi0g01" , function() {
-      $("#content").append(lazy.assets.basi0g01);
+    lazy.loadAsset( "image1" , function() {
+      $("#content").append(lazy.assets.image1);
     });
   });
 ```
