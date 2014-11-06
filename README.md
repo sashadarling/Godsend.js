@@ -1,7 +1,7 @@
-Godsend
+Godsend.js
 ===========
 
-Godsend is a simple javascript library for either pre-loading or lazy-loading assets.
+Godsend.js is a simple javascript library for either pre-loading or lazy-loading assets.
 
 Usage
 -----
