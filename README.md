@@ -1,7 +1,9 @@
 Godsend.js
 ===========
 
-Godsend.js is a simple javascript library for either pre-loading or lazy-loading assets.
+Godsend.js is a simple javascript library for either pre-loading or lazy-loading assets.  
+
+*NOTE* There aren't any dependencies for this library, even though the examples are shown using jQuery.
 
 Usage
 -----
