@@ -1,4 +1,4 @@
-** DEPRECATED **
+** OBSOLETE **
 
 Godsend.js
 ===========
